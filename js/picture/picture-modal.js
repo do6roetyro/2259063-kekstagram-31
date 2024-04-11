@@ -1,4 +1,4 @@
-import { commentsShowCount, commentsList } from './open-picture';
+import { commentsShowCount, commentsList } from './open-picture.js';
 
 const INITIAL_COMMENTS_COUNT = 5;
 const modalBigPicture = document.querySelector('.big-picture');

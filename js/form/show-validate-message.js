@@ -1,4 +1,4 @@
-import { setValidateMessageState } from './form-modal';
+import { setValidateMessageState } from './form-modal.js';
 
 const showValidateMessage = (value) => {
   const validateMessageTemplate = document.querySelector(`#${value}`).content.querySelector(`.${value}`);

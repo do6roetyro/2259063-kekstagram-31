@@ -1,7 +1,7 @@
-import { sendData } from '../api/send-data';
-import { resetEffectSlider } from './form-effects-slider';
-import { resetScale } from './form-scale';
-import { showValidateMessage } from './show-validate-message';
+import { sendData } from '../api/send-data.js';
+import { resetEffectSlider } from './form-effects-slider.js';
+import { resetScale } from './form-scale.js';
+import { showValidateMessage } from './show-validate-message.js';
 
 const HASHTAGS_MAX_VALUE = 5;
 const DESCRIPTION_MAX_LENGTH = 140;

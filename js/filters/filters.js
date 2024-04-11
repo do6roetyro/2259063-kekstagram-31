@@ -1,5 +1,5 @@
-import { debounce } from '../util';
-import { handleFilterButtonClick } from './handle-filter-button';
+import { debounce } from '../util.js';
+import { handleFilterButtonClick } from './handle-filter-button.js';
 
 const RERENDER_DELAY = 500;
 const filtersWrapper = document.querySelector('.img-filters');

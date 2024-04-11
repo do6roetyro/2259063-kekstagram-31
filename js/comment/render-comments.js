@@ -1,4 +1,4 @@
-import { createCommentsList } from '../comment/create-comments-list';
+import { createCommentsList } from '../comment/create-comments-list.js';
 
 const renderComments = (dataArr, index, commentsLayout) => {
   const commentsData = dataArr[index].comments;

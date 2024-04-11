@@ -1,4 +1,4 @@
-import { uploadPicturePreviev } from './form-modal';
+import { uploadPicturePreviev } from './form-modal.js';
 
 const SCALE = {
   INTERVAL: 25,

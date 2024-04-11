@@ -1,6 +1,6 @@
-import { modalBigPicture, openModalBigPicture } from './picture-modal';
-import { renderComments } from '../comment/render-comments';
-import { showMoreComments, SHOWED_COMMENTS_INTERVAL } from '../comment/show-more-comments';
+import { modalBigPicture, openModalBigPicture } from './picture-modal.js';
+import { renderComments } from '../comment/render-comments.js';
+import { showMoreComments, SHOWED_COMMENTS_INTERVAL } from '../comment/show-more-comments.js';
 
 const bigPicturePreviev = modalBigPicture.querySelector('.big-picture__preview');
 const commentsList = bigPicturePreviev.querySelector('.social__comments');

@@ -1,6 +1,6 @@
 
-import { addDataError } from './add-data-error';
-import { showFiltersForPreviewPanel } from '../filters/filters';
+import { addDataError } from './add-data-error.js';
+import { showFiltersForPreviewPanel } from '../filters/filters.js';
 
 const getData = async () => {
   try {

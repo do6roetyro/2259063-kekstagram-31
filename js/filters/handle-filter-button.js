@@ -1,6 +1,6 @@
-import { renderPictures } from '../picture/render-pictures';
-import { getRandomElementsFromArray, removeElements } from '../util';
-import { openPicture } from '../picture/open-picture';
+import { renderPictures } from '../picture/render-pictures.js';
+import { getRandomElementsFromArray, removeElements } from '../util.js';
+import { openPicture } from '../picture/open-picture.js';
 
 const AMOUNT_FOR_RANDOM_FILTER = 10;
 

@@ -1,7 +1,7 @@
-import { removeScaleEventHandlers, addScaleEventHandlers } from './form-scale';
-import { addEffectFieldsetEventHandler, removeEffectFieldsetEventHandler, resetEffectSlider } from './form-effects-slider';
-import { uploadForm, pristine } from './form-validate';
-import { uploadPicture} from './form-upload-picture';
+import { removeScaleEventHandlers, addScaleEventHandlers } from './form-scale.js';
+import { addEffectFieldsetEventHandler, removeEffectFieldsetEventHandler, resetEffectSlider } from './form-effects-slider.js';
+import { uploadForm, pristine } from './form-validate.js';
+import { uploadPicture} from './form-upload-picture.js';
 
 
 const uploadPictureInput = document.querySelector('.img-upload__input');
